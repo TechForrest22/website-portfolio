@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #e1e1e1;
+}
+#header {
+    background-image: url(images/bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+}
+#header section span {
+    background-color: #191919;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 35px;
+}
+#header section {
+    position:absolute;
+    margin: 25px;
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+}
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+.navbar nav ul li {
+    margin-left: 120px;
+    margin-top: 27px;
+}
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+#about {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#about #text {
+    margin-left: 60px;
+    margin-top: 15px;
+}
+#projects {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#services, #contact {
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.cards, .s-cards {
+    display: flex;
+}
+.cards img, .s-cards img {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#projects h1, #services h1{
+    margin-left: 62px;
+}
+#contact h1 {
+    margin-left: 190px;
+}
+#contact .links img {
+    margin-left: 30px;
+}
+#contact {
+    margin-left: 200px;
+}
+#conatct .form form {
+    width: 100%;
+}
+form input, form textarea { 
+    width: 70%;
+    border: 0;
+    outline: none;
+    background: #c5c5c5;
+    padding: 15px;
+    margin: 15px 0;
+    color: #000;
+    font-size: 18px;
+    border-radius: 6px;
+}
+#contact form button {
+    margin-left: 235px;
+    width: 150px;
+    height: 50px;
+    font-size: 23px;
+    background: #191919;
+    color: #e1e1e1;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: #191919;
+    font-size: 20px;
+    color: #e1e1e1;
+}
